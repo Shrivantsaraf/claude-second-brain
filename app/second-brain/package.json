@@ -1,0 +1,20 @@
+{
+  "name": "second-brain",
+  "version": "0.1.0",
+  "description": "Animated glass intro for the Second Brain assistant",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@fontsource/outfit": "^5.1.0",
+    "@xterm/addon-fit": "^0.11.0",
+    "@xterm/xterm": "^6.0.0",
+    "node-pty": "^1.1.0",
+    "three": "^0.160.1"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0"
+  }
+}

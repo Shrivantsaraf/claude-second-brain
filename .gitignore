@@ -1,0 +1,28 @@
+# Secrets & credentials — NEVER commit
+.env
+.env.*
+credentials.json
+token.json
+client_secret*.json
+*.key
+*.pem
+
+# Real per-user configs (keep *.template.json)
+config_*.json
+!config*.template.json
+
+# Disposable / heavy
+.tmp/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.zip
+node_modules/
+
+# Obsidian per-machine UI state (not knowledge — the .md files ARE the knowledge)
+.obsidian/
+
+# OS
+.DS_Store
+.superpowers/
